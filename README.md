@@ -10,9 +10,8 @@ Takes a list of items, **shuffles them**, and splits them into a set number of g
 1. **Enter a list of items** (separated by spaces).
 2. **Enter the number of groups** you want.
 3. The script:
-   - **Shuffles** the list using the **Fisher-Yates algorithhm (Knuth Shuffle)** to ensure randomness.
-   - **Splits** the items into groups using a **round-robin method** (cycling through groups one by one).
-   - **Prints the final groups**.
+   - **Shuffles** the list using the **Fisher-Yates algorithhm (Knuth Shuffle)** 
+   - **Splits** the items into groups using a **round-robin method** 
 
 <br>
 
