@@ -13,7 +13,6 @@ def create_random_groups():
     # TODO: if the user doesn't enter an int
     group_size = int(input('Enter the number of groups:'))
 
-    # NOTE: Uses the Fisher-Yates shuffle algorithm (aka Knuth Shuffle) to shuffle the list
     random.shuffle(user_list)
 
     # Creates empty groups
