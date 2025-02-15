@@ -16,8 +16,16 @@ def create_random_groups():
     # NOTE: Uses the Fisher-Yates shuffle algorithm (aka Knuth Shuffle) to shuffle the list
     random.shuffle(user_list)
 
+    # Creates empty groups
+    groups = [[] for _ in range(group_size)] 
 
+    # NOTE: Enumerate is a built-in function that iterates over a list and provides both the index and the item
+    for index, item in enumerate(user_list): 
+        # NOTE: Uses round-robin distribution to distribute items to groups
+        group_index = index % group_size 
+        groups[group_index].append(item)
 
-    print(user_list)
+    print(groups)
+
 
 create_random_groups()
