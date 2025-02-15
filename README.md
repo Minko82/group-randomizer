@@ -1,6 +1,6 @@
 # 🎲 Random Group Generator
 
-Takes a list of items, **shuffles them**, and splits them into a set number of **random groups**. 
+Takes a list of items, **shuffles them**, and splits them into a set number of groups. 
 
 <br>
 
