@@ -75,5 +75,3 @@ python3 group-generator.py
 | Dave       | 3       | `3 % 3 → 0`       | Group 1      |
 | Alice      | 4       | `4 % 3 → 1`       | Group 2      |
 | Frank      | 5       | `5 % 3 → 2`       | Group 3      |
-
-
